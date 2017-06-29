@@ -1,0 +1,92 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+// NAVIGATION
+
+.navbar.navbar-inverse {
+  height: $navbar-height;
+
+  a {
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: $navbar-height;
+  }
+}
+
+.bg-inverse {
+  background-color: $black !important;
+}
+
+.navbar-brand {
+  width: 230px;
+  padding-top: 0;
+}
+
+#navbarNavDropdown {
+  justify-content: flex-end;
+
+  a {
+    display: block;
+    width: 120px;
+    border-left: 1px solid lighten($black, 15);
+    text-align: center;
+    font-size: 14px;
+  }
+}
+
+.navbar-inverse .navbar-toggler {
+  position: absolute;
+  right: 15px;
+  border: none;
+}
+
+// LANDING
+
+.jumbotron.landing-header {
+  position: relative;
+  padding: 0;
+
+  .container {
+    padding-top: 100px;
+    padding-bottom: 150px;
+  }
+
+  .background-img,
+  .background-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+  }
+
+  .background-img {
+    background: url(/wp-content/uploads/2017/04/background.jpeg) no-repeat center center;
+    background-size: cover;
+  }
+
+  .background-overlay {
+    background-color: rgba(53, 142, 215, 0.90);
+  }
+
+  .title {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .title,
+  .sub-title {
+    color: $white;
+  }
+}
+
+.title {
+  text-align: center;
+}
+
+.sub-title {
+  text-align: center;
+}
+
+.product-section {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}

@@ -1,0 +1,191 @@
+.df-checkout-header{
+    .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .logo-wrapper{
+
+    }
+    .tel-wrapper{
+        text-align: right;
+        
+        .tel{
+            vertical-align: middle;
+            font-family: Source Sans Pro;
+            color: #9B9B9B;
+            font-size: 20px;
+            i{
+                vertical-align: middle;
+            }
+        }
+    }
+}
+.df-checkout-wrapper{
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    color: #43474D;
+    .checkout-section{
+        h1{
+            color: #43474D;
+            font-family: Source Sans Pro;
+            font-size: 24px;
+            font-weight: 300;
+            padding-bottom: 5px;
+            border-bottom: rgba(174, 174, 174, 0.5) 1px solid;
+        }
+        .checkout-section-body{
+            padding: 15px 0 30px 0;
+
+            .col-form-label{
+                color: #43474D;
+                font-size: 15px;
+                font-weight: 300;
+                align-self: center;
+            }
+            input::-webkit-input-placeholder {
+                opacity: .7;
+            }
+            input::-moz-placeholder {
+                opacity: .7;
+            }
+            input:-moz-placeholder {
+                opacity: .7;
+            }
+            input::-ms-input-placeholder {
+                opacity: .7;
+            }
+        }
+    }
+    .checkout-subscription{
+        background-color: #EEEEEE;
+        padding: 10px 20px;
+        h1{
+            color: #43474D;
+            font-family: Source Sans Pro;
+            font-size: 18px;
+            font-weight: 300;
+        }
+        ul{
+            li{
+                list-style-type: circle;
+                span{
+                    background-color: #FFFF00;
+                    padding: 5px 70px 5px 10px;
+                }
+            }
+        }
+        .subtotal{
+            border-top: #979797 1px solid;
+            .price{
+                color: #43474D;
+                font-family: Source Sans Pro;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .price-value{
+                color: #43474D;
+                font-family: Source Sans Pro;
+                font-size: 18px;
+                font-weight: 300;
+                text-align: right;
+            }
+
+        }
+
+    }
+    .checkout-identity{
+        margin-top: 30px;
+        .flex-div{
+            display: flex;
+        }
+        img{
+            margin: 0 auto;
+        }
+    }
+    .dfbtn-order{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .select{
+        font-family: "Roboto", sans-serif;
+        width: 100%;
+        font-size: 14px;
+        padding: 14px;
+        border: 1px solid #D0D7DD;
+        border-radius: 5px;
+        background: url(../images/arrow-down.png) no-repeat right #fff;
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        background-position-x: 97%;
+    }
+    .new-card{
+        align-self: center;
+    }
+    .new-card:hover{
+        cursor: pointer;
+        opacity: 0.7;
+    }
+    .cvc-tooltip{
+        font-family: Roboto;
+        font-style: italic;
+        font-size: 10px;
+        color: #43484D;
+        padding-top: 10px;
+    }
+    .cvc-tooltip:hover{
+        cursor: pointer;
+    }
+}
+.df-checkout-right-sidebar{
+    .widget_checkout_img_section{
+        img{
+            width: 100%;
+        }
+    }
+    aside{
+        color: #888888;
+        font-family: Source Sans Pro;
+        font-size: 14px;
+        font-weight: 300;
+        margin-top: 30px;
+        h3{
+            color: #8DC73F;
+            font-family: Source Sans Pro;
+            font-size: 19px;
+            font-weight: 300;
+        }
+        span{
+            font-weight: bold;
+        }
+        ul{
+            li{
+                a{
+                    color: #888888;
+                }
+            }
+        }
+    }
+}
+.df-checkout-footer{
+    color: #979797;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+    padding: 0 20px;
+}
+@media (max-width: 767px){
+    .tel-wrapper{
+        display: none;
+    }
+    .logo-wrapper{
+        text-align: center;
+    }
+}
+@media (max-width: 575px){
+    .form-group{
+        margin-bottom: 0px;
+    }
+}

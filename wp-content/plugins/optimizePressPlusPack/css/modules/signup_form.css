@@ -1,0 +1,166 @@
+/*
+OPT-IN STYLE 1
+*/
+.sidebar-form .op_signup_form.op-signup-style-oppp1 {
+    position: relative;
+    border: 3px solid #fbfbf2;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+    background: none;
+    padding: 45px 0 10px;
+}
+
+.sidebar-form .op_signup_form.op-signup-style-oppp1:before{
+    content: "";
+    width: 100%;
+    width: calc(100% + 6px);
+    height: 13px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    left: calc(0% - 3px);
+    background-color: #00bfd9;
+}
+
+.sidebar-form .op_signup_form.op-signup-style-oppp1 h2{
+    padding: 13px 20px 0;
+    font-size: 1.9em !important;
+    color: #3f3e3e;
+    font-weight: 900;
+    text-shadow: none;
+}
+
+.sidebar-form .op_signup_form.op-signup-style-oppp1 p{
+    margin: 0;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #3f3e3e;
+    text-shadow: none;
+}
+
+.sidebar-form .op_signup_form.op-signup-style-oppp1 form{
+    padding: 0 20px;
+}
+
+.sidebar-form .op_signup_form.op-signup-style-oppp1 form input{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 0;
+    background-image: none;
+    box-shadow: none;
+    background-color: #efefef;
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+.sidebar-form .op_signup_form.op-signup-style-oppp1 form input::-webkit-input-placeholder { color: #3f3e3e; }
+.sidebar-form .op_signup_form.op-signup-style-oppp1 form input::-moz-placeholder { color: #3f3e3e; }
+.sidebar-form .op_signup_form.op-signup-style-oppp1 form input:-ms-input-placeholder { color: #3f3e3e; }
+.sidebar-form .op_signup_form.op-signup-style-oppp1 form input:-moz-placeholder { color: #3f3e3e; }
+
+.sidebar-form .op_signup_form.op-signup-style-oppp1 button.default-button{
+    width: 100%;
+    border-radius: 0;
+    text-shadow: none;
+    background: #11bdd7;
+    box-shadow: none;
+    font-size: 1em;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.sidebar-form .op_signup_form.op-signup-style-oppp1 .secure-icon{
+    font-size: 11px;
+    padding: 15px;
+    display: inline-block;
+    background-position: 0 50%;
+    overflow: visible;
+    background-image: url("../../images/elements/optin_box/optin-27-privacy.png");
+}
+
+/*
+OPT-IN STYLE 2
+*/
+.sidebar-form .op_signup_form.op-signup-style-oppp2 {
+    border: none;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+    padding: 40px 0 30px 0;
+    background: #323136;
+}
+
+.sidebar-form .op_signup_form.op-signup-style-oppp2 h2{
+    padding: 13px 20px 0;
+    font-size: 1.2em !important;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: none;
+}
+
+.sidebar-form .op_signup_form.op-signup-style-oppp2 p{
+    margin: 0 20px;
+    padding: 10px 0 15px;
+    font-size: 0.9em;
+    color: #616065;
+    text-shadow: none;
+}
+
+.sidebar-form .op_signup_form.op-signup-style-oppp2 form{
+    padding: 0 20px;
+}
+
+.sidebar-form .op_signup_form.op-signup-style-oppp2 form input{
+    width: 90%;
+    box-sizing: border-box;
+    border-radius: 0;
+    background-image: none;
+    box-shadow: none;
+    background-color: #f6f6f6;
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 0.7em;
+    margin: 0 auto 6px;
+}
+
+.sidebar-form .op_signup_form.op-signup-style-oppp2 form input::-webkit-input-placeholder { color: #cacaca; text-transform: uppercase; }
+.sidebar-form .op_signup_form.op-signup-style-oppp2 form input::-moz-placeholder { color: #cacaca; text-transform: uppercase; }
+.sidebar-form .op_signup_form.op-signup-style-oppp2 form input:-ms-input-placeholder { color: #cacaca; text-transform: uppercase; }
+.sidebar-form .op_signup_form.op-signup-style-oppp2 form input:-moz-placeholder { color: #cacaca; text-transform: uppercase; }
+
+.sidebar-form .op_signup_form.op-signup-style-oppp2 button.default-button{
+    width: 90%;
+    border-radius: 0;
+    text-shadow: none;
+    background: #68b2a3;
+    box-shadow: none;
+    font-size: 1em;
+    font-weight: 700;
+    color: #FFF;
+    margin: 0 auto 6px;
+}
+
+.sidebar-form .op_signup_form.op-signup-style-oppp2 button.default-button span{
+    display: inline-block;
+    text-indent: 3px;
+}
+
+.sidebar-form .op_signup_form.op-signup-style-oppp2 button.default-button span:after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-left: 3px;
+    background-image: url("../../images/modules/signup_form/oppp2-arrow.png");
+    background-repeat: no-repeat;
+}
+
+.sidebar-form .op_signup_form.op-signup-style-oppp2 .secure-icon{
+    display: none;
+}

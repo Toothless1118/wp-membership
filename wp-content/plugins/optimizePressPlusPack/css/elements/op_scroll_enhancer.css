@@ -1,0 +1,78 @@
+#op_asset_browser_slide3 .field-id-op_assets_addon_op_scroll_enhancer_effect select,
+#op_asset_browser_slide3 .field-id-op_assets_addon_op_scroll_enhancer_animation select{
+    width: 100% !important; height: 40px !important; padding: 10px;
+}
+
+html.op-live-editor .op-scroll-enhancer a { animation: none; }
+
+.op-scroll-enhancer {
+    position: relative;
+    z-index: 9;
+    text-align: center;
+}
+.op-scroll-enhancer a {
+    display: inline-block;
+    line-height: 62px;
+    text-align: center;
+    text-indent: -999px;
+    overflow: hidden;
+    background: none center center no-repeat;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+.op-scroll-enhancer a[data-effect="cancel"] {
+    pointer-events: none;
+}
+.op-scroll-enhancer a img {
+    display: none;
+}
+
+.op-scroll-enhancer.op-scroll-enhancer-style-1 a {
+    width: 40px;
+    height: 62px;
+    background-image: url("../../images/elements/op_scroll_enhancer/1.png");
+}
+
+.op-scroll-enhancer.op-scroll-enhancer-style-2 a {
+    width: 40px;
+    height: 62px;
+    background-image: url("../../images/elements/op_scroll_enhancer/2.png");
+}
+
+.op-scroll-enhancer.op-scroll-enhancer-style-3 a {
+    width: 42px;
+    height: 42px;
+    background-image: url("../../images/elements/op_scroll_enhancer/3.png");
+}
+
+.op-scroll-enhancer.op-scroll-enhancer-style-4 a {
+    width: 45px;
+    height: 45px;
+    background-image: url("../../images/elements/op_scroll_enhancer/4.png");
+}
+
+.op-scroll-enhancer.op-scroll-enhancer-style-5 a {
+    width: 45px;
+    height: 45px;
+    background-image: url("../../images/elements/op_scroll_enhancer/5.png");
+}
+
+.op-scroll-enhancer.op-scroll-enhancer-style-6 a {
+    width: 45px;
+    height: 44px;
+    background-image: url("../../images/elements/op_scroll_enhancer/6.png");
+}
+
+.op-scroll-enhancer.op-scroll-enhancer-style-7 a {
+    width: 45px;
+    height: 44px;
+    background-image: url("../../images/elements/op_scroll_enhancer/7.png");
+}
+
+.op-scroll-enhancer.op-scroll-enhancer-style-8 a {
+    width: 45px;
+    height: 44px;
+    background-image: url("../../images/elements/op_scroll_enhancer/8.png");
+}

@@ -1,0 +1,9 @@
+multi armed bandit
+bayesian bandit
+epsilon-greedy
+equal split
+
+http://stevehanov.ca/blog/index.php?id=132
+http://conversionxl.com/bandit-tests/
+
+confidence threshold

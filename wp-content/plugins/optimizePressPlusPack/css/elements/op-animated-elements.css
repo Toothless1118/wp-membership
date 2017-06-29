@@ -1,0 +1,11 @@
+.to-be-animated {
+  opacity: 0;
+}
+
+.op-live-editor .to-be-animated, .to-be-animated.animated {
+  opacity: 1;
+}
+
+.animated.infinite {
+    animation-iteration-count: infinite;
+}

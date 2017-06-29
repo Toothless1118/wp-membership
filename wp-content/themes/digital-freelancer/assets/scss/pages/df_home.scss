@@ -1,0 +1,200 @@
+.df-toolbar {
+    font-family: Roboto;
+    background: #F9F9F9;
+    border-bottom: 1px solid #e5e5e5;
+    .navbar {
+        background: #F9F9F9;
+    }
+    .navbar-collapse {
+        display: inline-flex;
+        background: #F9F9F9;
+    }
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                font-family: Source Sans Pro;
+                color: #5E6977;
+                font-size: 18px;
+                font-weight: Semibold;
+                padding: 17px 11px 21px 11px;
+            }
+            .nav-link.nav-home {
+                padding-right: 0;
+                i {
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+    .btn-group {
+        margin-right: 16px;
+        a {
+            color: #43484D;
+            font-size: 14px;
+            font-weight: bold;
+            background: #EAEAEA;
+            padding: 8px 24px;
+        }
+    }
+    .btn-group.saved {
+        color: #7F8FA4;
+        font-size: 14px;
+        i {
+            color: #37B148;
+            padding-right: 5px;
+            font-size: 10px;
+        }
+    }
+}
+.df-home-header {
+    font-family: Roboto;
+    background-color: rgba(53,142,215,.9);
+    border-radius: 0;
+    color: #fff;
+    padding: 0;
+
+    .container {
+        padding-top: 65px;
+        padding-bottom: 96px;
+    }
+    .background-overlay {
+        background-color: rgba(53,142,215,.9);
+    }
+    h1.title {
+        font-weight: bold;
+        font-size: 48px;
+        letter-spacing: -0.1px;
+    }
+
+    p.sub-title {
+        font-size: 30px;
+        font-weight: 300;
+        margin-bottom: 53px;
+        padding: 4px 40px;
+        span {
+            background: rgba(52, 79, 117, 0.45);
+        }
+    }
+    .subscription-data {
+
+        .sub-table {
+            background: #F9F9F9;
+            color: #43484D;
+            border-radius: 5px;
+            font-size: 16px;
+            padding: 5px 0 0 0;
+            min-height: 270px;
+            margin-left: -19px;
+            margin-right: 34px;
+            table {
+                margin-top: 5px;
+                border-radius: 5px;
+                margin-bottom: 3rem;
+                thead {
+                    background: #F9F9F9;
+                    th {
+                        border-top-color: #F9F9F9;
+                        border-bottom-color: #969696;
+                        text-align: center;
+                        padding: 5px;
+                    }
+                }
+                tbody {
+                    background: #fff;
+                    padding-bottom: 40px;
+                }
+            }
+            
+        }
+        .referal-area {
+            border-radius: 5px;
+            background-color: #fff;
+            min-height: 285px;
+            color: #43484D;
+
+            .referal-title {
+                padding-top: 46px;
+                font-size: 18px;
+                font-weight: 400;
+                text-align: center;
+                padding-left: 24px;
+                padding-right: 30px;
+                line-height: 23px;
+            }
+            .ref-link {
+                width: auto;
+                padding-top: 16px;
+                padding-right: 50px;
+                padding-left: 39px;
+                .form-control {
+                    padding: 8px 20px;
+                }
+                .input-group-addon {
+                    background: #7DC855;
+                    color: #fff;
+                    font-size: 14px;
+                    font-weight: bold;
+                    width: 100px;
+                    align-items: center;
+                }
+            }
+            .ref-btn-group {
+                text-align: center;
+                display: inline-flex;
+                justify-content: center;
+                padding-top: 32px;
+                .fb-share-button {
+                    margin: 0 20px;
+                }
+            }
+        }
+
+    }
+}
+.dfhome.top-products-section {
+    background: #fff;
+    margin-top: 33px;
+    padding:0 100px 90px;
+    h5 {
+        font-size: 22px;
+        width: 163px;
+        padding-bottom: 10px;
+    }
+    .card-deck{
+        margin-top: 32px;
+        padding: 0;
+        .products-widget{
+            
+        }
+        .card{
+            margin: 0 auto;
+        }
+    }
+}
+@media (min-width: 992px) {
+    .subscription-data {
+        display: flex;
+    }
+}
+@media (max-width: 991px) {
+    .dfhome.top-products-section {
+        padding: 0 0 90px 0;
+        .card-deck{
+            .products-widget{
+                padding: 0;
+            }
+        }
+    }
+    .df-home-header .subscription-data .sub-table{
+        margin-left: 0;
+    }
+}
+@media (max-width: 575px) {
+
+    .ref-btn-group {
+        .fb-share-button {
+            margin: 0 5px !important;
+        }
+    }
+
+}

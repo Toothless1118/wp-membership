@@ -1,0 +1,23 @@
+.mce-content-body {
+    margin: 10px;
+}
+
+.wpview {
+    box-sizing: border-box;
+    outline-offset: -2px;
+
+}
+
+.wpview-wrap:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+a.css-button {
+    width: inherit !important;
+    height: inherit !important;
+}

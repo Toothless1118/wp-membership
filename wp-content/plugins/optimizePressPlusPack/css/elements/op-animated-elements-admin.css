@@ -1,0 +1,73 @@
+.op-row-animated-elements-form {
+    position: relative;
+    margin-top: 40px;
+    margin-right: 20px;
+    padding: 35px 40px 40px;
+    border: 1px solid #ccc;
+    background: #fafafa;
+}
+
+.op-row-animated-elements-form::after{
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: 24px;
+    width: 53px;
+    height: 48px;
+    opacity: 0.9;
+    right: 13px;
+    padding: 0px;
+    background: #fff url(images/oppp-icon-small.png) no-repeat 50%;
+    border-radius: 18px;
+    top: 26px;
+}
+
+.op-animated-elements-form-row {
+    overflow: hidden;
+    margin-bottom: 1.5em;
+}
+
+.op-animated-elements-form-row:last-child {
+    margin-bottom: 0;
+}
+
+.op-animated-elements-form-column {
+    display: block;
+    width: 48%;
+    float: left;
+}
+
+.op-animated-elements-form-column:first-child {
+    margin-right: 4%;
+}
+
+.op-animated-elements-form-column input,
+.op-animated-elements-form-column select {
+    margin: 0;
+    padding: 10px;
+    width: 100% !important;
+    box-sizing: border-box;
+    min-height: 18px;
+    box-shadow: none;
+    clear: both;
+}
+
+.op-animated-elements-form-column input[type="checkbox"] {
+    width: auto !important;
+}
+
+.op-row-animated-elements-form h3 {
+    padding-bottom: 0;
+    color: #004a80;
+    font-size: 18px;
+}
+
+.op-row-animated-elements-form h3 + p {
+    margin-top: 0;
+}
+
+ /*.fancybox-inner label*/
+.op-live-editor .op-animated-elements-form-column label {
+    margin-top: 0;
+}
+

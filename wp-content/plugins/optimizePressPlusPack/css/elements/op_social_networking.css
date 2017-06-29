@@ -1,0 +1,466 @@
+
+/**
+ * Social Networking style needed because of
+ * "Add Element" option in TineMCE editor
+ */
+.social-networking {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-networking li {
+    margin: 0 !important;
+
+}
+
+/*
+ * Social Networking
+ */
+.social-networking li:first-child:nth-last-child(1) {
+    width: 100%;
+}
+
+.social-networking li:first-child:nth-last-child(2),
+.social-networking li:first-child:nth-last-child(2) ~ li {
+    width: 50%;
+}
+
+.social-networking li:first-child:nth-last-child(3),
+.social-networking li:first-child:nth-last-child(3) ~ li {
+    width: 33.3333%;
+}
+
+.social-networking li:first-child:nth-last-child(4),
+.social-networking li:first-child:nth-last-child(4) ~ li {
+    width: 25%;
+}
+
+.social-networking li:first-child:nth-last-child(5),
+.social-networking li:first-child:nth-last-child(5) ~ li {
+    width: 20%;
+}
+
+.social-networking li:first-child:nth-last-child(6),
+.social-networking li:first-child:nth-last-child(6) ~ li {
+    width: 16.66%;
+}
+
+.social-networking li:first-child:nth-last-child(7),
+.social-networking li:first-child:nth-last-child(7) ~ li {
+    width: 14.28%;
+}
+
+.social-networking li:first-child:nth-last-child(8),
+.social-networking li:first-child:nth-last-child(8) ~ li {
+    width: 12.50%;
+}
+
+/*
+ * Social Networking Style 1
+ */
+.social-networking-style-1 {
+    height: 80px;
+    width: 100%;
+    background-color: #0465dc;
+    display: flex;
+}
+
+.social-networking-style-1 li {
+    height: 80px;
+    margin: 0;
+}
+
+.social-networking-style-1 li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.social-networking-style-1 li p {
+    color: #fff;
+    font-size: 15px;
+    text-transform: capitalize;
+    vertical-align: middle;
+    margin: 0px 0px 0px 5px;
+}
+
+.social-networking-style-1 li a:hover {
+    background: rgba(0, 0, 0, 0.5);
+    text-decoration: none !important;
+}
+
+.social-networking-style-1 li:nth-child(2n) {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.social-networking-style-1 .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-networking-style-1 .logo {
+    margin: 0;
+    color: #fff;
+}
+
+
+.social-networking-style-1 .facebook_url .logo,
+.social-networking-style-1 .youtube_url .logo,
+.social-networking-style-1 .twitter_url .logo,
+.social-networking-style-1 .instagram_url .logo,
+.social-networking-style-1 .google_url .logo,
+.social-networking-style-1 .linkedin_url .logo,
+.social-networking-style-1 .pinterest_url .logo,
+.social-networking-style-1 .snapchat_url .logo {
+    width: 27px;
+    height: 27px;
+    padding: 0px;
+    fill: #ffffff;
+}
+
+@media only screen and (max-width: 768px) {
+    .social-networking-style-1,
+    .three-columns .social-networking-style-1 {
+        height: auto !important;
+    }
+
+    .social-networking-style-1 {
+        flex-direction: column;
+    }
+
+    .social-networking-style-1 li {
+        width: 100% !important;
+    }
+}
+
+/*
+ * Social Networking Style 1
+ * in two-column and three-columns row
+ */
+.two-columns .social-networking-style-1 li p {
+    display: none;
+}
+
+.three-columns .social-networking-style-1,
+.three-columns .social-networking-style-1 li {
+    height: 60px;
+}
+
+.three-columns .social-networking-style-1 li p {
+    display: none;
+}
+
+
+/*
+ * Social Networking Style 2
+ */
+.social-networking-style-2 {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.social-networking-style-2 li {
+    display: inline-block;
+    margin: 0;
+}
+
+.social-networking-style-2 a:hover .logo,
+.social-networking-style-2 a:hover p {
+    opacity: 0.3;
+}
+
+.social-networking-style-2 li a {
+    display: block;
+    width: 100%;
+}
+
+.social-networking-style-2 li p {
+    color: #000;
+    text-transform: capitalize;
+    vertical-align: middle;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.social-networking-style-2 .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-networking-style-2 .logo {
+    margin-bottom: 10px;
+}
+
+.social-networking-style-2 .facebook_url .logo {
+    fill: #3a5897;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+}
+
+.social-networking-style-2 .twitter_url .logo {
+    fill: #1da0f2;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+}
+
+.social-networking-style-2 .google_url .logo {
+    fill: #dc4a38;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+}
+
+.social-networking-style-2 .linkedin_url .logo {
+    fill: #007bb6;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+}
+
+.social-networking-style-2 .instagram_url .logo {
+    fill: #000;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+}
+
+.social-networking-style-2 .youtube_url .logo {
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+}
+
+.social-networking-style-2 .youtube_url .logo .you {
+    fill: #4b4b4b;
+}
+
+.social-networking-style-2 .youtube_url .logo .tube {
+    fill: #ec2828;
+}
+
+.social-networking-style-2 .pinterest_url .logo {
+    fill: #bd081c;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+}
+
+.social-networking-style-2 .snapchat_url .logo {
+    fill: #FFFC00;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+}
+
+.social-networking-style-2 .facebook_url .logo,
+.social-networking-style-2 .youtube_url .logo,
+.social-networking-style-2 .twitter_url .logo,
+.social-networking-style-2 .instagram_url .logo,
+.social-networking-style-2 .google_url .logo,
+.social-networking-style-2 .linkedin_url .logo,
+.social-networking-style-2 .pinterest_url .logo,
+.social-networking-style-2 .snapchat_url .logo {
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+@media only screen and (max-width: 768px) {
+    .social-networking-style-2 {
+        height: auto;
+    }
+
+    .box p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .social-networking-style-2 p {
+        display: none;
+    }
+}
+
+/*
+ * Social Networking Style 2
+ * in two-column and three-columns row
+ */
+.two-columns .social-networking-style-2 li p {
+    display: none;
+}
+
+.two-columns .social-networking-style-2 .logo,
+.three-columns .social-networking-style-2 .logo {
+    margin-bottom: 0px;
+}
+
+.three-columns .social-networking-style-2 li p {
+    display: none;
+}
+
+/**
+*   Social Networking Style 3
+*/
+
+.social-networking-style-3 {
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.social-networking-style-3 li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.social-networking-style-3 .box {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-networking-style-3 .facebook_url .box:hover .logo,
+.social-networking-style-3 .google_url .box:hover .logo,
+.social-networking-style-3 .instagram_url .box:hover .logo,
+.social-networking-style-3 .linkedin_url .box:hover .logo,
+.social-networking-style-3 .youtube_url .box:hover .logo,
+.social-networking-style-3 .twitter_url .box:hover .logo,
+.social-networking-style-3 .pinterest_url .box:hover .logo,
+.social-networking-style-3 .snapchat_url .box:hover .logo {
+    fill: #fff;
+}
+
+.social-networking-style-3 .logo {
+    fill: #000;
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+}
+
+.social-networking-style-3 .facebook_url .box:hover {
+    background-color: #3a5897 !important;
+}
+
+.social-networking-style-3 .twitter_url .box:hover {
+    background-color: #1da0f2 !important;
+}
+
+.social-networking-style-3 .google_url .box:hover {
+    background-color: #dc4a38 !important;
+}
+
+.social-networking-style-3 .linkedin_url .box:hover {
+    background-color: #007bb6 !important;
+}
+
+.social-networking-style-3 .instagram_url .box:hover {
+    background-color: #375888 !important;
+}
+
+.social-networking-style-3 .youtube_url .box:hover {
+    background-color: #ec2828 !important;
+}
+
+.social-networking-style-3 .pinterest_url .box:hover {
+    background-color: #bd081c !important;
+}
+
+.social-networking-style-3 .snapchat_url .box:hover {
+    background-color: #FFFC00 !important;
+}
+
+.social-networking-style-3 .facebook_url .box,
+.social-networking-style-3 .youtube_url .box,
+.social-networking-style-3 .twitter_url .box,
+.social-networking-style-3 .instagram_url .box,
+.social-networking-style-3 .google_url .box,
+.social-networking-style-3 .linkedin_url .box,
+.social-networking-style-3 .pinterest_url .box,
+.social-networking-style-3 .snapchat_url .box {
+    transition: 300ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 300ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+@media only screen and (max-width: 960px) {
+    .social-networking-style-3 .box {
+        width: 80px;
+        height: 80px;
+    }
+
+    .social-networking-style-3 .logo {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .social-networking-style-3 .box {
+        width: 50px;
+        height: 50px;
+    }
+
+    .social-networking-style-3 .logo {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .social-networking-style-3 .box {
+        width: 35px;
+        height: 35px;
+    }
+
+    .social-networking-style-3 .logo {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/*
+ * Social Networking Style 3
+ * in two-column and three-columns row
+ */
+.two-columns .social-networking-style-3,
+.three-columns .social-networking-style-3 {
+  padding: 0;
+}
+
+.two-columns .social-networking-style-3 .box {
+    width: 50px;
+    height: 50px;
+}
+
+.two-columns .social-networking-style-3 .logo {
+    width: 25px;
+    height: 25px;
+}
+
+.three-columns .social-networking-style-3 .box {
+    width: 36px;
+    height: 36px;
+}
+
+.three-columns .social-networking-style-3 .logo {
+    width: 23px;
+    height: 23px;
+}

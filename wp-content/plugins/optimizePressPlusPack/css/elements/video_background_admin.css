@@ -1,0 +1,188 @@
+.op-row-video-background-form {
+    position: relative;
+    margin-top: 40px;
+    margin-right: 20px;
+    padding: 35px 40px 40px;
+    border: 1px solid #ccc;
+    background: #fafafa;
+}
+
+.op-row-video-background-form::after{
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: 24px;
+    width: 53px;
+    height: 48px;
+    opacity: 0.9;
+    right: 13px;
+    padding: 0px;
+    background: #fff url(images/oppp-icon-small.png) no-repeat 50%;
+    border-radius: 18px;
+    top: 26px;
+}
+
+.op-row-video-background-form h3 {
+    width: 80%;
+    padding-bottom: 10px;
+    color: #004a80;
+    font-size: 18px;
+}
+
+.fancybox-inner .op-row-video-background-form input[type=text] {
+    width: 100% !important;
+    background-color: #fff !important;
+    vertical-align: top;
+}
+
+.fancybox-inner .op-row-video-background-form input[type=number] {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 0;
+    padding: 10px;
+    min-height: 18px;
+    font-size: 16px;
+    box-shadow: none;
+    clear: both;
+    box-sizing: border-box;
+}
+
+.op-video-background-type-youtube,
+.op-video-background-type-url {
+    display: none;
+}
+
+.op-video-background-type--shown {
+    display: block;
+}
+
+.op-row-video-background-form .op-le-row-options-column {
+    width: 48.25%;
+    float: left;
+}
+
+.op-row-video-background-form .op-le-row-options-columns { overflow: hidden; }
+.op-row-video-background-form .op-le-row-options-column:nth-child(odd) { margin-right: 1.75%; }
+.op-row-video-background-form .op-le-row-options-column:nth-child(even) { margin-left: 1.75%; }
+
+
+.op-video-background-subtitle {
+    font-weight: bold !important;
+    line-height: 32px;
+    color: #333 !important;
+    border-bottom: 1px solid #f2f2f2;
+    margin: 5px 0 15px 0;
+}
+.op-video-background-subtitle + .op-le-row-options-columns { margin-top: -30px; }
+
+.op-row-video-background-form .field-slider .ui-slider-handle { outline: none; }
+.op-row-video-background-form .field-slider .ui-slider-handle:focus { border: 1px solid #333 !important; }
+
+#op-le-row-options .op-row-video-background-form .op-video-background-micro-copy { margin-bottom: 0; }
+
+/**
+ * Elements that are on the video background must have lower z-index to ensure that video preview is visible
+ */
+.row, .fixed-width {
+    z-index: 10;
+    position: relative;
+}
+
+/**
+ * Preview should be above content
+ */
+.op-row-video-background-wrap-preview {
+    z-index: 20;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    background-image: url('../../images/elements/video-preview-icon.png');
+    background-position: 20px 30px;
+    background-repeat: no-repeat;
+    opacity: .2;
+}
+
+.op-row-video-background-form .preview-image {
+    display: block;
+}
+
+.op-row-video-background-form .op-file-uploader .preview-image {
+    background: #fff !important;
+    border-radius: 5px !important;
+    border: 1px solid #ccc !important;
+    width: auto !important;
+    padding: 10px !important;
+}
+
+.op-row-video-background-form .op-file-uploader .preview-image img {
+    max-width: 100%;
+}
+
+/**
+ * Slider Styles
+ */
+.op-row-video-background-form div.field-slider label {
+    font-weight: bold !important;
+    color: #666;
+    display: block !important;
+    float: none;
+}
+
+.op-row-video-background-form div.field-slider div.slider-output {
+    display: inline-block !important;
+    padding: 0 !important;
+    margin: -37px 0 10px 0 !important;
+    font-size: 12px !important;
+    font-weight: normal !important;
+    color: #666 !important;
+    float: right;
+}
+
+.op-row-video-background-form div.field-slider div.ui-slider {
+    margin: 20px 0 25px 0 !important;
+}
+
+.op-row-video-background-form div.field-slider div.ui-slider-horizontal {
+    background: #f2f2f2 !important;
+    border: 1px solid #ccc !important;
+    border-radius: 50px !important;
+    height: 8px !important;
+    padding-left: 20px !important;
+}
+
+.op-row-video-background-form div.field-slider a.ui-slider-handle {
+    background: #f2f2f2;
+    border: 1px solid #ccc !important;
+    border-radius: 50px !important;
+    height: 20px !important;
+    width: 20px !important;
+    position: relative !important;
+    top: -7px !important;
+    margin-left: -21px !important;
+    display: block !important;
+}
+
+.op-row-video-background-form div.field-slider:hover a.ui-slider-handle {
+    background: #fff;
+}
+
+.op-row-video-background-form div.field-slider:active a.ui-slider-handle {
+    background: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.15);
+}
+
+.op-row-video-background-form div.field-slider:active div.ui-slider-horizontal {
+    border: 1px solid #aaa !important;
+    box-shadow: inset 0 1px 0 0 rgba(0,0,0,0.1);
+}
+
+.op-row-video-background-form div.field-slider {
+    margin-top: 15px;
+    display: inline-block !important;
+    width: 100% !important;
+}

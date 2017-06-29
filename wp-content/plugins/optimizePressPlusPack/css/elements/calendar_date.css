@@ -1,0 +1,92 @@
+.calendar-date-style-4 .calendar-date-box {
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+    text-align: center;
+    line-height: normal;
+    transform: rotate(0deg);
+}
+
+.calendar-date-style-4 .calendar-date-box .month {
+    background-color:#56ACFF;
+    background-image: none;
+    box-shadow: none;
+    color: #ffffff;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1em;
+    margin: 0;
+    padding: 10px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.calendar-date-style-4 .calendar-date-box .day {
+    background-color: #f7f7f7;
+    background-image: none;
+    color: #646e76;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 1em;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.calendar-date.calendar-date-style-4 .calendar-time-box ul li {
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 8px;
+}
+
+.calendar-date.calendar-date-style-4 .calendar-time-box ul li.date::before,
+.calendar-date.calendar-date-style-4 .calendar-time-box ul li.time::before {
+    opacity: 0.5;
+}
+
+.calendar-date.calendar-date-style-4 .calendar-time-box ul li.time {
+    font-size: 20px;
+}
+
+.calendar-date.calendar-date-style-5 .calendar-date-box {
+    display: none;
+}
+
+.calendar-date.calendar-date-style-5 .calendar-time-box ul li {
+    height: 32px;
+}
+
+.calendar-date.calendar-date-style-5 .calendar-time-box ul li.date::before,
+.calendar-date.calendar-date-style-5 .calendar-time-box ul li.time::before {
+    width: 32px;
+    height: 32px;
+}
+
+.calendar-date.calendar-date-style-5 .calendar-time-box ul li.date::before {
+    /*background-image: url("images/calendar_date/date2.png");*/
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAVZQTFRFAAAAfxEAfg8AfREAdxAAoEIt45x6cQ0A6aF8aQkAZAkAXQUAVQUAaDYzXR4cXiEeYSQhm5ubnJycm5ubmZmZlpaWk5OTkJCQjY2NioqKiIiIhYWFhISEgoKCgYGBAAAAfn5+AAAAe3t7AAAAdHR0xMTEZGRkZ2dnb29vAAAAAAAAAAAAAAAAAAAAAAAAAAAAS0tL/f39+bON9Ytd0NPT+bGJ631R6Gw+2T0bd3x96Gk75YJc2FQr2FMqwSwRJiIi1mVCykQiriIOpHNqy1QxvDQXvjgajDAdTAAAxk4ouzkavDsby1s11W5E7Ozs5+fn/Pz8+Pj4+/v7+fn5+vr6rq6u4Ylw9/f3/v7+9vb28/Pz9PT09fX18vLy8PDw7e3t7u7u7+/v6enp6urq5ubm5eXl4+Pj5OTk4uLi4ODg6+vr3d3d4eHh2tra2NjY3Nzc3t7e////i9BEKAAAADB0Uk5TAEiXv17P8a35v7+/v6jp6uunpqampqampqampqampgGnAqkEf+o9jLUIEBgcAwUJS+xOtQAAAAFiS0dEca8HXOIAAAAJcEhZcwAAAEgAAABIAEbJaz4AAAF4SURBVDjLfZJBixNBEEbfV10zMYPeHFBYWGGvIuLds+gPVjx7FxFv2eOCgrKLKGt6MtPlISZMr0maRx+qHv013SUAeA6fmK99wUESglQJgkREIFx6KkHYrF8EEV8iRrHQMx0R4nNksXyhrRDzhK0QH/84asQRgRCOXEiKO4JiLzQnBfFAgFT194X45fhLcWzFBxzZCUE4MigH24aEozBZ/cj/9hJFOGoZKiExpVFGmVqEg9EO84MH0hA24K0BjqRU3SFBAocmQhhKFlxe7kikRDLMCEvCQRhP2JE943k5ZhrTLqLg1GzUgGwbcXOdZhFbGlYr0vWNEI9fa7xdkCv8tmVYerz76si+PyRTkzWA/+iFIfXxX8R9ViuilxBnb/Stvce6ovm9IOdH8fbKkdH/XEPFWhl6aRuhtChlU9G309QmSfi5jNR1d3567DpoAjt3k0nd4XGJsNCF9KpcHRTO7H2ELpJOjFxMXlodNSJi48W1aY8IQxPlL1BqzihrrfZiAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE1LTA3LTA3VDIyOjQxOjQwKzAwOjAw3FS8kQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNS0wNy0wN1QyMjo0MTo0MCswMDowMK0JBC0AAAAASUVORK5CYII=');
+}
+
+.calendar-date.calendar-date-style-5 .calendar-time-box ul li.time::before {
+    /*background-image: url("images/calendar_date/time2.png");*/
+    background-image: url('data:image/png;base64,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');
+}
+
+.calendar-date.calendar-date-style-5 .calendar-time-box ul li.date {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.calendar-date.calendar-date-style-5 .calendar-time-box ul li.time {
+    font-size: 20px;
+}
+
+.calendar-date.calendar-date-style-5 .calendar-time-box ul li span {
+    top: auto;
+    line-height: 32px;
+    vertical-align: top;
+}
+
+.calendar-date.calendar-date-style-5 .calendar-time-box ul li strong {
+    font-weight: normal;
+}

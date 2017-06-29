@@ -1,0 +1,152 @@
+.settings-nav {
+    display: flex;
+    margin: 0 auto;
+    color: #5E6977;
+    padding: 12px 94px;
+    a.nav-a{
+        width: 33%;
+        color: #5E6977;
+    }
+    a{
+        .media {
+            padding: 5px 0 5px 31px;
+            border-left: 1px solid #D0D7DD;
+            .ico-wrapper,{
+                background: #EAEAEA;
+                font-size: 30px;
+                border-radius: 3px;
+            }
+            .ico-a {
+                color: #8D909F;
+                padding: 4px 13px;
+            }
+            .media-body {
+                font-size: 13px;
+                font-weight: 100;
+                h5 {
+                    font-size: 15px;
+                    font-weight: 400;
+
+                    a {
+                        color: #5E6977;
+                    }
+                }
+            }
+        }
+    }
+    .media.active {
+        .ico-wrapper{
+            background: #358ED7;
+            color: #fff;
+        }
+        .ico-a {
+            color: #fff;
+        }
+    }
+
+}
+.settings-nav > .media:last-child {
+    border-right: 1px solid #D0D7DD;
+}
+.dfsetting {
+    padding-bottom: 23px;
+}
+.settings-input {
+    display: inline-block;
+    padding: 0 60px;
+    label {
+        color: #5E6977;
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    
+    .setting-btn {
+        background-color: transparent;
+        padding: 8px;
+        border: 1px solid rgba(0,0,0,.15);
+        border-radius: .25rem;
+        margin-bottom: 17px;
+    }
+    input {
+        border: none;
+        font-size: 21px;
+        font-weight: 300;
+    }
+    button {
+        /*
+        margin-left: -50%;
+        border: none;
+        background-color: transparent;
+        */
+    }
+    .mepr-newpassword-form {
+        margin-top: -23px;
+    }
+}
+.settings-input.billing-form {
+    .mepr-account-form {
+        padding-top: 40px;
+        .billing-label-txt {
+            margin-bottom: 5px;
+        }
+        .billing-label {
+            margin-bottom: 19px;
+        }
+        .billing-label-payment {
+            margin-top: 22px;
+        }
+    }
+    .select {
+        font-family: "Roboto", sans-serif;
+        width: 100%;
+        font-size: 14px;
+        padding: 18px;
+        border: 1px solid #D0D7DD;
+        border-radius: 5px;
+        background: url(../images/arrow-down.png) no-repeat right #fff;
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        background-position-x: 97%; 
+    }
+}
+.settings-description {
+    padding-bottom: 15px;
+    p {
+        color: #5E6977;
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .txt-1 {
+        padding-left: 45px;
+        padding-top: 15px;
+    }
+    ul {
+        padding-left: 92px;
+        padding-top: 5px;
+    }
+    .txt-3 {
+        padding-left: 45px;
+        padding-top: 27px;
+    }
+    li {
+        color: #5E6977;
+    }
+}
+@media (max-width: 991px) {
+    .settings-nav {
+        .media {
+            padding: 0;
+            justify-content: center;
+        }
+        .media-body {
+            display: none;
+        }
+    }
+    .df-toolbar {
+        .navbar-nav {
+            flex-direction: row;
+        }
+    }
+}

@@ -1,0 +1,144 @@
+# Copyright (C) 2016 MemberPress Drip - Tags Version
+# This file is distributed under the same license as the MemberPress Drip - Tags Version package.
+msgid ""
+msgstr ""
+"Project-Id-Version: MemberPress Drip - Tags Version 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/memberpress-drip-"
+"tags\n"
+"POT-Creation-Date: 2016-06-29 18:34:31+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: MpDripTags.php:81
+msgid "Enable Drip - Tags"
+msgstr ""
+
+#: MpDripTags.php:89
+msgid "Drip API Token:"
+msgstr ""
+
+#: MpDripTags.php:96
+msgid ""
+"You can find your API Token under Settings > My User Settings at getdrip.com."
+msgstr ""
+
+#: MpDripTags.php:103
+msgid "Drip Account:"
+msgstr ""
+
+#: MpDripTags.php:110
+msgid "Global Tag(s):"
+msgstr ""
+
+#: MpDripTags.php:115
+msgid ""
+"Comma Separated list of tags. These tags will be added to all subscribers "
+"regardless of membership level."
+msgstr ""
+
+#: MpDripTags.php:122
+msgid "Enable Opt-In Checkbox"
+msgstr ""
+
+#: MpDripTags.php:126
+msgid ""
+"If checked, an opt-in checkbox will appear on all of your product "
+"registration pages."
+msgstr ""
+
+#: MpDripTags.php:130
+msgid "Signup Checkbox Label:"
+msgstr ""
+
+#: MpDripTags.php:135
+msgid ""
+"This is the text that will display on the signup page next to your mailing "
+"list opt-in checkbox."
+msgstr ""
+
+#: MpDripTags.php:183
+msgid "We Respect Your Privacy"
+msgstr ""
+
+#: MpDripTags.php:280
+msgid "Enable Drip Tags"
+msgstr ""
+
+#: MpDripTags.php:283
+msgid "Enable Membership Specific Tags"
+msgstr ""
+
+#: MpDripTags.php:284
+msgid ""
+"When enabled these tags will be automatically added/removed from the "
+"subscriber based on their subscription status to this membership level. "
+"These tags should be different than the Global Tag(s) you have defined in "
+"the MemberPress Options. Active Tags are tags that the subscriber will have "
+"when they are active on this membership. Inactive Tags are added when the "
+"subscriber is no longer active on the membership. These tags are toggled, so "
+"both will not be added at the same time."
+msgstr ""
+
+#: MpDripTags.php:288
+msgid "Active Tags: "
+msgstr ""
+
+#: MpDripTags.php:291
+msgid "Inactive Tags: "
+msgstr ""
+
+#: MpDripTags.php:322
+msgid "Hey yo, why you creepin'?"
+msgstr ""
+
+#: MpDripTags.php:327
+msgid "No apikey code was sent"
+msgstr ""
+
+#: MpDripTags.php:430
+msgid "Sign Up for the %s Newsletter"
+msgstr ""
+
+#: main.php:35
+msgid "MemberPress Drip - Tags"
+msgstr ""
+
+#: main.php:36
+msgid "Drip Autoresponder Integration for MemberPress. Based on Tags."
+msgstr ""
+
+#: script/i18n/pomo/sample/app.php:56
+msgid "Welcome %s!"
+msgstr ""
+
+#: script/i18n/pomo/sample/app.php:60
+msgid "A string with low priority!"
+msgstr ""
+
+#: script/i18n/pomo/sample/app.php:62
+msgid "Bye\n"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "MemberPress Drip - Tags Version"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.memberpress.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Drip Autoresponder integration for MemberPress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Caseproof, LLC"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://caseproof.com/"
+msgstr ""

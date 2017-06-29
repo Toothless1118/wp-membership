@@ -1,0 +1,1201 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Notification Bar\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-19 22:14+0100\n"
+"PO-Revision-Date: 2015-10-19 22:15+0100\n"
+"Last-Translator: MyThemeShop <support-team@mythemeshop.com>\n"
+"Language-Team: MyThemeShop\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/class-mts-notification-bar-admin.php:171
+#: ../admin/class-mts-notification-bar-admin.php:1153
+#: ../admin/class-mts-notification-bar-admin.php:1310
+msgid "Remove"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:172
+#: ../admin/class-mts-notification-bar-admin.php:1215
+msgid "Enable Split Test"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:173
+#: ../admin/class-mts-notification-bar-admin.php:1215
+msgid "Disable Split Test"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:174
+#: ../admin/class-mts-notification-bar-admin.php:202
+msgid "Enter Notification Bar Title"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:223
+msgid "WP Notification Bar Settings"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:224
+#: ../admin/class-mts-notification-bar-admin.php:432
+msgid "Settings"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:274
+msgid "Custom Post Types"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:282
+msgid "Supported Post Types:"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:293
+msgid "Cookies settings"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:301
+msgid "Cookies expiry time (days):"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:311
+msgid ""
+"Add support for Custom Post Type single pages and its taxonomies archive "
+"pages."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:316
+#, php-format
+msgid ""
+"Cookies are used to make \"Show N times\" and \"Show after N visits\" "
+"display conditions possible.<br />If you want to reset cookies, you can do "
+"that on <a href=\"%s\">Notification Bars</a> page using \"Bulk Actions\" "
+"select dropdown."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:367
+msgid "Add New Notification Bar"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:368
+msgid "New Notification Bar"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:369
+msgid "Edit Notification Bar"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:370
+msgid "View Notification Bar"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:371
+msgid "All Notification Bars"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:372
+msgid "Search Notification Bars"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:373
+msgid "Parent Notification Bars:"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:374
+msgid "No notification bars found."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:375
+msgid "No notification bars found in Trash."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:418
+msgid "Preview Bar"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:451
+msgid "Hide/Close Button"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:454
+msgid "No Button"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:455
+msgid "Toggle Button"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:456
+msgid "Close Button"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:463
+msgid "Close icon"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:472
+msgid "Open icon"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:481
+msgid "Initial State"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:483
+msgid "Opened"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:484
+msgid "Closed"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:493
+msgid "Remember State"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:501
+msgid "Content Width (px)"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:507
+msgid "Padding (px)"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:513
+msgid "Notification bar CSS position"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:516
+msgid "Fixed"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:517
+msgid "Absolute"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:523
+msgid "Notification bar position"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:526
+msgid "Top"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:527
+msgid "Bottom"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:533
+msgid "Notification bar animation"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:540
+msgid "Notification bar content animation"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:547
+msgid "Background Color"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:548
+msgid "Text Color"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:549
+msgid "Link Color"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:550
+msgid "Link Hover Color"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:551
+msgid "Close/Toggle Button Color"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:552
+msgid "Close/Toggle Button Background Color"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:556
+msgid "Font size (px)"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:562
+msgid "Font Weight"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:565
+msgid "Normal"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:566
+msgid "Bold"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:567
+msgid "Bolder"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:568
+msgid "Lighter"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:574
+msgid "Line Height"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:580
+msgid "Drop Shadow"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:589
+msgid "Link Style"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:592
+msgid "Link"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:593
+msgid "Button"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:599
+#: ../admin/class-mts-notification-bar-admin.php:620
+#: ../admin/class-mts-notification-bar-admin.php:681
+#: ../admin/class-mts-notification-bar-admin.php:864
+#: ../admin/class-mts-notification-bar-admin.php:873
+#: ../admin/class-mts-notification-bar-admin.php:916
+#: ../admin/class-mts-notification-bar-admin.php:953
+#: ../admin/class-mts-notification-bar-admin.php:986
+#: ../admin/class-mts-notification-bar-admin.php:1022
+msgid "Text"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:605
+msgid "Link/Button Text"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:611
+msgid "Link/Button Url"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:626
+msgid "Number of posts"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:632
+msgid "Display Post Thumbnail"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:638
+msgid "Show"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:641
+msgid "Recent"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:642
+msgid "Related"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:643
+msgid "Custom Posts"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:644
+msgid "Custom Categories"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:645
+msgid "Custom Tags"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:652
+msgid "Enter comma separated list of post ids"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:660
+msgid "Select Post Categories"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:669
+msgid "Select Post Tags"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:687
+msgid "Service"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:690
+msgid "Feedburner"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:691
+msgid "MailChimp"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:692
+msgid "Aweber"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:693
+msgid "Get Response"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:694
+msgid "Campaign Monitor"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:695
+msgid "Mad Mimi"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:702
+msgid "Include Name Field"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:710
+msgid "Include Last Name Field"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:719
+msgid ""
+"MailChimp <a href=\"http://kb.mailchimp.com/accounts/management/about-api-"
+"keys\" target=\"_blank\">API Key</a>"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:727
+msgid "MailChimp List ID"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:735
+msgid "Single Optin"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:752
+msgid "Paste Authorization Code"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:760
+msgid "Aweber List"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:769
+msgid ""
+"Get Response <a href=\"http://www.getresponse.com/learning-center/glossary/"
+"api-key.html\" target=\"_blank\">API Key</a>"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:777
+msgid "Get Response Campaign"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:786
+msgid ""
+"Campaign Monitor <a href=\"http://help.campaignmonitor.com/topic.aspx?"
+"t=206\" target=\"_blank\">API Key</a>"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:794
+msgid "Campaign Monitor Client"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:802
+msgid "Campaign Monitor List"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:811
+msgid "Mad Mimi Username / Email"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:819
+msgid ""
+"Mad Mimi <a href=\"http://help.madmimi.com/where-can-i-find-my-api-key/\" "
+"target=\"_blank\">API Key</a>"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:827
+msgid "Mad Mimi List"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:836
+msgid ""
+"Feedburner <a href=\"http://rosalindgardner.com/blog/how-to-find-your-"
+"feedburner-id/\" target=\"_blank\">ID</a>"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:845
+msgid "Submit button text"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:846
+#: ../includes/class-mts-notification-bar-shared.php:567
+msgid "Subscribe"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:853
+msgid "Success message"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:854
+msgid "We will be in touch soon!"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:879
+msgid "Number of Tweets"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:884
+msgid ""
+"Find out how to setup your App <a href=\"http://iag.me/socialmedia/how-to-"
+"create-a-twitter-app-in-8-easy-steps/\" target=\"_blank\">here</a> and enter "
+"your App details below."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:889
+msgid "API Key"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:895
+msgid "API Secret"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:901
+msgid "Token"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:907
+msgid "Token Secret"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:922
+msgid ""
+"Facebook <a href=\"http://findmyfacebookid.com/\" target=\"_blank\">Page ID</"
+"a>"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:928
+msgid "Number of posts to display"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:933
+msgid ""
+"Find out how to setup your App <a href=\"https://getsharepress.com/setup\" "
+"target=\"_blank\">here</a> and enter your <a href=\"https://developers."
+"facebook.com/apps/\" target=\"_blank\">App ID and Secret</a> below."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:938
+msgid "Facebook App ID"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:944
+msgid "Facebook App Secret"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:959
+msgid "Count Until Date"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:965
+msgid "Count Until Time"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:971
+msgid "Call To Action Button Text"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:977
+msgid "Call To Action Button Url"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:992
+msgid "Video Service"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:995
+msgid "YouTube"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:996
+msgid "Vimeo"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1003
+msgid "Link to YouTube video"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1011
+msgid "Link to Vimeo video"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1023
+msgid "Looking for something?"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1031
+msgid "Add custom content, shortcodes allowed"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1048
+msgid "General"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1053
+msgid "Content"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1058
+msgid "Style"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1063
+msgid "Conditions"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1069
+msgid ""
+"Select basic settings like close button type and CSS position of the bar."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1079
+msgid ""
+"Set up notification bar content. Select content type and fill in the fields."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1084
+#: ../admin/class-mts-notification-bar-admin.php:1241
+msgid "Text and Link/Button"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1085
+#: ../admin/class-mts-notification-bar-admin.php:1242
+msgid "Posts"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1086
+#: ../admin/class-mts-notification-bar-admin.php:1243
+msgid "Newsletter"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1087
+#: ../admin/class-mts-notification-bar-admin.php:1244
+msgid "Social Media"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1088
+#: ../admin/class-mts-notification-bar-admin.php:1245
+msgid "Facebook Feeds"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1089
+#: ../admin/class-mts-notification-bar-admin.php:1246
+msgid "Twitter Feeds"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1090
+#: ../admin/class-mts-notification-bar-admin.php:1247
+msgid "Countdown Timer"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1091
+#: ../admin/class-mts-notification-bar-admin.php:1248
+msgid "Popup Video"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1092
+#: ../admin/class-mts-notification-bar-admin.php:1249
+msgid "Search Form"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1093
+#: ../admin/class-mts-notification-bar-admin.php:1250
+msgid "Custom"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1126
+#: ../admin/class-mts-notification-bar-admin.php:1283
+msgid "Add Social Media Platform"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1175
+#: ../admin/class-mts-notification-bar-admin.php:1332
+#: ../includes/class-mts-notification-bar-shared.php:762
+msgid "The Twitter Feed content requires at least PHP version 5.4.0"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1218
+msgid "Restart Split Test"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1226
+msgid "Allocate traffic and set up second variation content below."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1230
+#, php-format
+msgid "Traffic on first variation: %s"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1234
+#, php-format
+msgid "Traffic on second variation: %s"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1375
+msgid ""
+"Change the appearance of the notification bar. You can choose from the "
+"predefined color sets, or select custom colors."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1388
+msgid "Choose when and where to display the notification bar."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1397
+#: ../admin/class-mts-notification-bar-admin.php:1492
+msgid "On specific locations"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1402
+#: ../admin/class-mts-notification-bar-admin.php:1721
+msgid "Not on specific locations"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1411
+#: ../admin/class-mts-notification-bar-admin.php:1949
+msgid "Visitor is logged in"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1416
+#: ../admin/class-mts-notification-bar-admin.php:1955
+msgid "Visitor is not logged in"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1422
+#: ../admin/class-mts-notification-bar-admin.php:1961
+msgid "Show N times"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1428
+#: ../admin/class-mts-notification-bar-admin.php:1972
+msgid "Show after N visits"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1437
+#: ../admin/class-mts-notification-bar-admin.php:1983
+msgid "Only on mobile devices"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1442
+#: ../admin/class-mts-notification-bar-admin.php:1989
+msgid "Not on mobile devices"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1451
+#: ../admin/class-mts-notification-bar-admin.php:1995
+msgid "From a specific referrer"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1456
+#: ../admin/class-mts-notification-bar-admin.php:2031
+msgid "Not from a specific referrer"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1465
+#: ../admin/class-mts-notification-bar-admin.php:2067
+msgid "With specific UTM tags"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1470
+#: ../admin/class-mts-notification-bar-admin.php:2116
+msgid "Without specific UTM tags"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1479
+#: ../admin/class-mts-notification-bar-admin.php:2165
+msgid "Show from/to time"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1484
+#: ../admin/class-mts-notification-bar-admin.php:2204
+msgid "Hide from/to time"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1494
+msgid "Show Notification Bar on the following locations"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1510
+#: ../admin/class-mts-notification-bar-admin.php:1739
+msgid "Homepage."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1517
+#: ../admin/class-mts-notification-bar-admin.php:1746
+msgid "Blog Homepage."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1524
+#: ../admin/class-mts-notification-bar-admin.php:1753
+msgid "Pages."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1530
+msgid "Select pages. Leave empty to show Notification Bar on all pages"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1548
+#: ../admin/class-mts-notification-bar-admin.php:1777
+msgid "Posts."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1558
+msgid ""
+"Enter comma separated list of post ids. Leave empty to show Notification Bar "
+"on all posts"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1564
+#: ../admin/class-mts-notification-bar-admin.php:1793
+msgid "Post category archives."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1570
+#: ../admin/class-mts-notification-bar-admin.php:1799
+msgid ""
+"Select categories. Leave empty to hide Notification Bar on all categories"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1588
+#: ../admin/class-mts-notification-bar-admin.php:1817
+msgid "Post tag archives."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1594
+msgid "Select tags. Leave empty to show Notification Bar on all tags"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1612
+#: ../admin/class-mts-notification-bar-admin.php:1841
+msgid "Date archives."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1618
+#: ../admin/class-mts-notification-bar-admin.php:1847
+msgid "Author archives."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1624
+#: ../admin/class-mts-notification-bar-admin.php:1853
+msgid "Error 404 page."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1630
+#: ../admin/class-mts-notification-bar-admin.php:1859
+msgid "Search results page."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1636
+#: ../admin/class-mts-notification-bar-admin.php:1865
+msgid "Custom."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1641
+#: ../admin/class-mts-notification-bar-admin.php:1870
+msgid ""
+"Enter custom URLs, type full URL and hit enter/space to separate entries."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1675
+#, php-format
+msgid ""
+"Enter comma separated list of ids. Leave empty to show Notification Bar on "
+"all %s"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1688
+#: ../admin/class-mts-notification-bar-admin.php:1916
+#, php-format
+msgid "%s archives."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1694
+#, php-format
+msgid "Select %s. Leave empty to show Notification Bar on all %s"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1723
+msgid "Hide Notification Bar on the following locations"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1759
+msgid "Select pages. Leave empty to hide Notification Bar on all pages"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1787
+msgid ""
+"Enter comma separated list of post ids. Leave empty to hide Notification Bar "
+"on all posts"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1823
+msgid "Select tags. Leave empty to hide Notification Bar on all tags"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1903
+#, php-format
+msgid ""
+"Enter comma separated list of ids. Leave empty to hide Notification Bar on "
+"all %s"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1922
+#, php-format
+msgid "Select %s. Leave empty to hide Notification Bar on all %s"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1951
+msgid "Show Notification Bar only for logged in visitors"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1957
+msgid "Show Notification Bar only for not logged in visitors"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1965
+msgid "Show Notification Bar"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1967
+msgid "times for each visitor."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1976
+msgid "Show Notification Bar after"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1978
+msgid "visits."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1985
+msgid "Show Notification Bar to visitors that are using a mobile device."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:1991
+msgid ""
+"Show Notification Bar to visitors that are using a normal computer or laptop"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:2003
+msgid "Show Notification Bar if visitor arrived via a search engine."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:2009
+msgid "Show Notification Bar if visitor arrived from a specific referrer."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:2015
+#: ../admin/class-mts-notification-bar-admin.php:2051
+msgid ""
+"Enter custom refferrers. Can be full URL or a pattern like \".example.com\", "
+"type and hit enter/space to separate entries."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:2039
+msgid "Hide Notification Bar if visitor arrived via a search engine."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:2045
+msgid "Hide Notification Bar if visitor arrived from a specific referrer."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:2071
+msgid "Show Notification Bar if URL contains"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:2073
+#: ../admin/class-mts-notification-bar-admin.php:2122
+msgid "Any"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:2074
+#: ../admin/class-mts-notification-bar-admin.php:2123
+msgid "Every"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:2076
+#: ../admin/class-mts-notification-bar-admin.php:2125
+msgid "value entered below."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:2105
+#: ../admin/class-mts-notification-bar-admin.php:2154
+msgid "Add Custom:"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:2109
+#: ../admin/class-mts-notification-bar-admin.php:2158
+msgid "Add"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:2120
+msgid "Hide Notification Bar if URL contains"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:2172
+msgid "Show Notification Bar starting from selected date and time."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:2179
+#: ../admin/class-mts-notification-bar-admin.php:2196
+#: ../admin/class-mts-notification-bar-admin.php:2218
+#: ../admin/class-mts-notification-bar-admin.php:2235
+msgid "Date (required):"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:2181
+#: ../admin/class-mts-notification-bar-admin.php:2198
+#: ../admin/class-mts-notification-bar-admin.php:2220
+#: ../admin/class-mts-notification-bar-admin.php:2237
+msgid "Time (optional):"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:2189
+msgid "Show Notification Bar until selected date and time."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:2211
+msgid "Hide Notification Bar starting from selected date and time."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:2228
+msgid "Hide Notification Bar until selected date and time."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:2327
+msgid "Select Image"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:2330
+msgid "Remove Image"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:2374
+msgid "No Icon"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:2402
+msgid "Get Authorization Code"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:2402
+msgid "Reconnect Account"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3070
+msgid "Load a predefined color set"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3086
+msgid "Load colors"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3098
+msgid "Default"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3109
+msgid "Yellow"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3120
+msgid "While"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3131
+msgid "Turquoise"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3142
+msgid "Peter River"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3153
+msgid "Amethyst"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3164
+msgid "Wet Asphalt"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3175
+msgid "Orange"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3186
+msgid "Pumpkin"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3197
+msgid "Pomegranate"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3208
+msgid "Silver"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3219
+msgid "Honey Flower"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3230
+msgid "Light Wisteria"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3241
+msgid "Cape Honey"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3265
+msgid "Impressions"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3266
+msgid "Clicks"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3325
+#: ../admin/class-mts-notification-bar-admin.php:3369
+#, php-format
+msgid "Visitors: %d"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3326
+#: ../admin/class-mts-notification-bar-admin.php:3370
+#, php-format
+msgid "Impressions: %d"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3327
+#: ../admin/class-mts-notification-bar-admin.php:3371
+#, php-format
+msgid "Clicks: %d"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3404
+msgid ""
+"Free version of WP Notification Bar plugin disabled. Pro version is active!"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3428
+#: ../admin/class-mts-notification-bar-admin.php:3431
+msgid "Notification Bar updated."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3429
+msgid "Custom field updated."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3430
+msgid "Custom field deleted."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3432
+#, php-format
+msgid "Notification Bar restored to revision from %s"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3433
+msgid "Notification Bar published."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3434
+msgid "Notification Bar saved."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3435
+msgid "Notification Bar submitted."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3436
+#, php-format
+msgid "Notification Bar  scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3436
+msgid "M j, Y @ H:i"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3437
+msgid "Notification Bar draft updated."
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3459
+msgid "Notification Bar"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3499
+msgid "Select Notification Bar (optional):"
+msgstr ""
+
+#: ../admin/class-mts-notification-bar-admin.php:3503
+msgid "Selected notification bar will override any other bar."
+msgstr ""
+
+#: ../includes/class-mts-notification-bar-shared.php:579
+#: ../includes/class-mts-notification-bar-shared.php:610
+msgid "Email"
+msgstr ""
+
+#: ../includes/class-mts-notification-bar-shared.php:602
+msgid "First Name"
+msgstr ""
+
+#: ../includes/class-mts-notification-bar-shared.php:606
+msgid "Last Name"
+msgstr ""
+
+#: ../includes/class-mts-notification-bar-shared.php:788
+msgid "Please choose date and/or time in future"
+msgstr ""
+
+#: ../includes/class-mts-notification-bar-shared.php:804
+msgid "Please enter text and link to your video"
+msgstr ""
+
+#: ../includes/class-mts-notification-bar.php:256
+msgid "Reset Cookies"
+msgstr ""
+
+#: ../includes/class-mts-notification-bar.php:257
+msgid "Notification bar cookies updated"
+msgstr ""
+
+#: ../includes/twitter/functions.php:22
+msgid "An Error has occurred and we were unable to get your tweets."
+msgstr ""
+
+#: ../public/class-mts-notification-bar-public.php:98
+msgid "MailChimp account is not setup properly."
+msgstr ""
+
+#: ../public/class-mts-notification-bar-public.php:107
+msgid "MailChimp: No list specified."
+msgstr ""
+
+#: ../public/class-mts-notification-bar-public.php:151
+msgid "Unable to subscribe."
+msgstr ""
+
+#: ../public/class-mts-notification-bar-public.php:166
+msgid "Aweber account is not setup properly"
+msgstr ""

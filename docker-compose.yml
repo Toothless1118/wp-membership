@@ -1,0 +1,66 @@
+version: '2'
+services:
+  wordpress:
+    image: visiblevc/wordpress:latest
+    ports:
+      - 8080:80
+      - 443:443
+    volumes:
+      - ./data:/data
+      - ./tweaks.ini:/usr/local/etc/php/conf.d/tweaks.ini # Optional tweaks to the php.ini config
+      - ./wp-content/uploads:/app/wp-content/uploads
+      - ./wp-content/themes:/app/wp-content/themes
+      - ./wp-content/plugins:/app/wp-content/plugins
+    environment:
+      DB_NAME: wordpress
+      DB_PASS: root
+      PLUGINS: >-
+        [local]affiliate-wp,
+        [local]affiliatewp-affiliate-area-tabs,
+        [local]affiliatewp-affiliate-dashboard-sharing,
+        [local]affiliatewp-allow-own-referrals,
+        [local]affiliatewp-signup-referrals,
+        [local]affiliatewp-store-credit,
+        [local]affiliatewp-zapier,
+        [local]category-posts,
+        [local]feature-a-page-widget,
+        [local]email-subscribers,
+        baw-login-logout-menu,
+        cloudflare-flexible-ssl,
+        easy-smooth-scroll-links,
+        email-marketing,
+        google-analytics-dashboard-for-wp,
+        if-menu,
+        [local]memberpress,
+        [local]memberpress-developer-tools,
+        [local]memberpress-drip-tags,
+        [local]optimizePressPlugin,
+        [local]optimizePressPlusPack,
+        [local]optimizePressExperiments,
+        peters-login-redirect,
+        redirection,
+        [local]mts-wp-notification-bar,
+        [local]sumome
+      THEMES: >-
+        digital-freelancer
+      PERMALINKS: /%postname%/
+  db:
+    image: mariadb:10 # or mysql:5.7
+    volumes:
+      - data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    environment:
+       MYSQL_ROOT_PASSWORD: root
+    ports:
+      - 22222:80
+volumes:
+  data:
+
+# wordpress URL: http://localhost:8080/
+# wordpress login: root // root
+
+# phpmyadmin URL: http://localhost:22222/
+# phpmyadmin login: root // root

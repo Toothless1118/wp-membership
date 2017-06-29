@@ -1,0 +1,108 @@
+.ui-progressbar.progressbar-style-4 {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+    height: 20px;
+    overflow: hidden;
+}
+
+.ui-progressbar.progressbar-style-4 .ui-progressbar-value {
+    background-color: #ffbf00;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-size: 40px 40px;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset;
+    float: left;
+    font-size: 12px;
+    height: 100%;
+    line-height: 20px;
+    text-align: center;
+    /*transition: width 0.6s ease 0s;*/
+    animation: progress-bar-stripes 2s linear infinite;
+}
+
+.ui-progressbar.progressbar-style-4 span {
+    display: block;
+    font-size: 11px;
+    color: #fff;
+}
+
+@keyframes progress-bar-stripes {
+    from { background-position: 40px 0; }
+    to { background-position: 0 0; }
+}
+
+.ui-progressbar.progressbar-style-5 {
+    background: #f7f7f7;
+    padding: 5px;
+}
+
+.ui-progressbar.progressbar-style-5 .ui-progressbar-value {
+    background: #ff008c;
+    height: 42px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.ui-progressbar.progressbar-style-5 span {
+    color: #fff;
+    padding: 0 10px;
+    display: block;
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 42px;
+    letter-spacing: -1px;
+}
+
+.ui-progressbar.progressbar-style-6 {
+    position: relative;
+    padding: 0;
+    color: #ffbf00;
+    background: #ddd;
+    height: 25px;
+}
+
+.ui-progressbar.progressbar-style-6 .ui-progressbar-value {
+    height: 100%;
+    margin-top: 25px;
+    animation: 2.0s linear 1s normal none infinite running progress-bar-fadepulse;
+}
+
+.ui-progressbar.progressbar-style-6 span {
+    display: block;
+    position: absolute;
+    top: -25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+    font-family: "Josefin Sans",sans-serif;
+    color: inherit;
+}
+
+@keyframes progress-bar-fadepulse {
+      0% { opacity: 1.0; }
+     50% { opacity: 0.5; }
+    100% { opacity: 1.0; }
+}
+
+.progressbar-style-7 {
+    background: #ddd;
+    overflow: hidden;
+    position: relative;
+    height: 50px;
+}
+
+.progressbar-style-7 .ui-progressbar-value {
+    height: 100%;
+    background: #ffbf00;
+}
+
+.ui-progressbar.progressbar-style-7 span {
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 50px;
+    color: #fff;
+    text-align: right;
+    padding: 0 16px;
+}

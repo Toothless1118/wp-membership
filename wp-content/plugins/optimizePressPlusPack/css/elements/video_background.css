@@ -1,0 +1,97 @@
+/**
+ * Videos are absolutely positioned, so we must assure that grid rows are positioned relative
+ */
+.row {
+    position: relative;
+}
+
+/**
+ * We want body of the front-end pages to be relatively positioned,
+ * but not in Live Editor, since it messes up color pickers
+ * and tinymce dropdowns
+ */
+.op-live-editor-page {
+    position: relative;
+}
+
+/**
+ * Elements that are on the side of video background, must have higher z-index to ensure that they're visible
+ */
+.fixed-width {
+    z-index: 20;
+    position: relative;
+}
+
+/**
+ * When full page background is used, we want to be sure that the video is beyond all of the content (including the footer)
+ */
+.main-content {
+    z-index: 11;
+}
+
+.op-row-video-background-wrap {
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+
+    /* We're fading in video only after it's correctly positioned — on load first, after on resize */
+    opacity: 0;
+}
+
+ .op-row-video-background-fullpage {
+    position: fixed;
+ }
+
+.op-video-background,
+.op-video-background-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.op-video-background {
+    z-index: 10;
+}
+
+.op-video-background-overlay {
+    z-index: 15;
+    background-repeat: repeat;
+    opacity: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.op-video-background-iframe-container {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity .2s ease-in-out;
+}
+
+.op-row-video-background-alternative-image {
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 16;
+    display: none;
+}
+
+.op-row-video-background-alternative-image--shown {
+    display: block;
+}

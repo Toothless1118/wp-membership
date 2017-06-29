@@ -1,0 +1,24 @@
+<wpml-config>
+  <admin-texts>
+    <key name="mepr_options">
+      <key name="custom_message"/>
+      <key name="login_redirect_url"/>
+      <key name="emails">
+        <key name="*">
+           <key name="subject"/>
+           <key name="body"/>
+        </key>
+      </key>
+      <key name="custom_fields">
+        <key name="*">
+          <key name="field_name"/>
+          <key name="options">
+            <key name="*">
+              <key name="option_name"/>
+            </key>
+          </key>
+        </key>
+      </key>
+    </key>
+  </admin-texts>
+</wpml-config>
